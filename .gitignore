@@ -1,0 +1,16 @@
+# build artifacts in case someone builds in-place
+*.o
+*.ko
+*.ko.zst
+*.mod
+*.mod.c
+*.mod.o
+.*.cmd
+Module.symvers
+modules.order
+.tmp_versions/
+
+# editor backup files
+*.swp
+*~
+.DS_Store
